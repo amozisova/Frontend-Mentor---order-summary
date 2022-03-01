@@ -1,0 +1,134 @@
+/* mobile-first styling, styling for bigger screens (width 500px+) defined at the bottom */
+
+body {
+    background-color: #e0e8ff;
+    color: #7280a7;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;    /* resets browser default setting*/
+}
+
+h1 {
+    color: #1f2f56;
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+/* main container - grid */
+.grid-container {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+/* container - card */
+.card {
+    background: #fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+}
+
+/* img header */
+.card_header img {
+    border-radius: 1rem 1rem 0 0;
+    max-width: 100%;
+}
+
+.order_summary {
+    margin: 1rem;
+    width: 80%;
+}
+
+.annual_plan {
+    background-color: #f5f7ff;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 75%;
+}
+
+/*columns within annual plan */
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    text-align: left;
+    flex: 2;
+}
+
+/* styling of annual plan */
+.title {
+    color: #1f2f56;
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin: 0 0 0.4rem;
+}
+
+.order_footer {
+    max-width: 85%;
+    padding-bottom: 2rem;
+}
+
+/* button styling */
+.payment {
+    background-color: #3829e0;
+    border-radius: 0.5rem;
+    box-shadow: 0 1em 1em 1em #f5f7ff;
+    /* styles to overwrite browser default styling: */
+    border-width: 0;
+    color: #f5f7ff;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 1.5rem 0 0.5rem;
+    padding: 1rem 4rem;
+}
+
+.payment:hover {
+    background-color: #766CF1;
+    cursor: pointer;
+}
+
+/* links styling */
+.change {
+    color: #3829e0;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.change:hover {
+    color: #766CF1;
+    text-decoration: none;
+}
+
+.cancel {
+    color: #7280a7;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.cancel:hover {
+    color: #1f2f56;
+}
+
+/* styling for bigger screens - break point 500px */
+@media (min-width: 500px) {
+    body {
+        background: #e0e8ff no-repeat top url("images/pattern-background-desktop.svg");
+        background-size: 100% 48vh;
+    }
+
+    .card {
+        width: 25em;
+    }
+
+    .payment {
+        padding: 1rem 6rem;
+    }
+}
