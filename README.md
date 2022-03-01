@@ -2,7 +2,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
   - [Built with](#built-with)
  
@@ -11,15 +11,14 @@
 This is my solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
 
-### Screenshot
-
+### Screenshots
+- Mobile device screenshot: https://github.com/amozisova/order-summary-FMchallenge/blob/main/screenshot_mobile.jpg
+- Screenshot: https://github.com/amozisova/order-summary-FMchallenge/blob/main/screenshot.jpg
 
 ### Links
 
-- Solution URL: (https://github.com/amozisova/)
-- Live Site URL: (https://amozisova.github.io/)
-
-## My process
+- Solution URL: (https://github.com/amozisova/order-summary-FMchallenge)
+- Live Site URL: (https://amozisova.github.io/order-summary-FMchallenge/)
 
 ### Built with
 - Semantic HTML5 markup
